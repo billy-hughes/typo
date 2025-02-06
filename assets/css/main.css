@@ -180,6 +180,17 @@ hr {
   text-decoration: none;
 }
 
+.header-container {
+  display: flex;
+  align-items: center; /* Aligns the title and image vertically */
+  justify-content: space-between; /* Ensures spacing between title and image */
+  gap: 10px; /* Adds space between the title and image */
+}
+
+.header-container img {
+  max-height: calc(var(--figure-img-max-height) * 0.2);
+}
+
 /* Footer */
 
 footer {
